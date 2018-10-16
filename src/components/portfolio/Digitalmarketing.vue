@@ -1,13 +1,12 @@
 <template>
   <div>
   <b-card class="mb-2">
-
-    <b-img style="width:150px" src="static/portfolio/brain.png" fluid alt="Responsive image" />
-
-    <h4 class="red">MACHINE LEARNING</h4>
-    <h1 class="red">&</h1>
-    <h4 class="red">NEURAL NETWORKS</h4>
-
+    <b-img style="" src="static/portfolio/tree.png" fluid alt="Responsive image" />
+    <br><br>
+    <h4 class="red">DIGITAL</h4>
+    <h4 class="red">MARKETING</h4>
+    
+    
   <br>
   <table style="text-align:left">
       <tr>
@@ -15,8 +14,12 @@
           <div style="width:0.5rem; height:70px; background-color: black;"></div>
         </th>
         <th style="padding-left:10px">
-          <h4 style="font-weight:bold;">We create and implement</h4>
-          <p style="font-weight:400">various machine learning  algorithms, including those based on the principles of biological neural networks.</p>
+          <h4 style="font-weight:bold;">We optimize</h4>
+
+
+ 
+
+          <p style="font-weight:400">marketing communications by creating data marketing solutions. </p>
         </th>
         
       </tr>
@@ -26,29 +29,31 @@
         </th>
         <th style="padding-left:10px">
           <h4 style="text-align:left">Our experience & expertise include:</h4>
+          <!-- <h4 style="text-align:left;font-weight:300">to the traditional functions of trade</h4> -->
+          <!-- <h4 style="text-align:left">we solve these challenges:</h4> -->
         </th>
 
       </tr>
   </table>
   <br>
-  <table>
+    <table>
     <tr>
       <th>
         <span class="dot"></span>
       </th>
       <th style="text-align:left">
-        <h5>Systems for recognition and</h5>
+        <h5>Semantic website design</h5>
         
       </th>
     </tr>
-    <tr>
+    <!-- <tr>
       <th>
         <span class="notdot"></span>
       </th>
       <th style="text-align:left">
         <h5>classification of objects</h5>
       </th>
-    </tr>
+    </tr> -->
   </table>
   <br>
   <table>
@@ -57,17 +62,17 @@
         <span class="dot"></span>
       </th>
       <th style="text-align:left">
-        <h5>Predictive & prescriptive</h5>
+        <h5>Automatic analysis of the competitor environment</h5>
       </th>
     </tr>
-    <tr>
+    <!-- <tr>
       <th>
         <span class="notdot"></span>
       </th>
       <th style="text-align:left">
         <h5>analytic Algorithms</h5>
       </th>
-    </tr>
+    </tr> -->
   </table>
   <br>
   <table>
@@ -76,17 +81,17 @@
         <span class="dot"></span>
       </th>
       <th style="text-align:left">
-        <h5>Intellectual Security</h5>
+        <h5>Hidden patterns research</h5>
       </th>
     </tr>
-    <tr>
+    <!-- <tr>
       <th>
         <span class="notdot"></span>
       </th>
       <th>
         <h5>systems & monitoring</h5>
       </th>
-    </tr>
+    </tr> -->
   </table>
   <br>
   <table>
@@ -95,17 +100,17 @@
         <span class="dot"></span>
       </th>
       <th style="text-align:left">
-        <h5>Self-learning control</h5>
+        <h5>Growth potential of products and services</h5>
       </th>
     </tr>
-    <tr>
+    <!-- <tr>
       <th>
         <span class="notdot"></span>
       </th>
       <th style="text-align:left">
         <h5>systems</h5>
       </th>
-    </tr>
+    </tr> -->
   </table>
   <br>
   <table>
@@ -114,11 +119,32 @@
         <span class="dot"></span>   
       </th>
       <th style="text-align:left">
-        <h5>Decision support systems</h5>
+        <h5>Digital content protection systems</h5>
       </th>
     </tr>
   </table>
+
+<br>
+  <table>
+    <tr>
+      <th>
+        <span class="dot"></span>   
+      </th>
+      <th style="text-align:left">
+        <h5>Target audience deep research</h5>
+      </th>
+    </tr>
+  </table>
+
+
+
+
+  
   <br>
+    <!-- <h4 style="text-align:left">we solve these challenges:</h4> -->
+    <br>
+
+ 
   
   
   
@@ -133,7 +159,7 @@
 
 <script>
 export default {
-  name: 'Machinelearning',
+  name: 'Digitalmarketing',
   
   data () {
     return {
@@ -150,7 +176,7 @@ export default {
   font-weight: 900;
   padding: 0;
   margin:0;
-    /* font-size: 200%; */
+  font-size: 200%;
     /* color: #D80027; */
 }
 
@@ -165,19 +191,11 @@ ul{
   padding: 0;
   }
 
-.listpointitem{
-  /* font-weight:600; */
-  /* padding-left: 5px; */
-  /* text-align:left; */
-  /* padding-top:15px; */
-  /* padding-bottom:15px; */
-
-} 
 
 .dot {
   height: 20px;
   width: 20px;
-  background-color:#008DDD;
+  background-color:#F2C94C;
   border-radius: 50%;
   display: inline-block;
   margin-top:6px;

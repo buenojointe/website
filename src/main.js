@@ -6,9 +6,9 @@ import {MediaQueries} from 'vue-media-queries';
 
 import router from './router';
 
-import VueResponsiveImage from 'vue-responsive-image';
+// import VueResponsiveImage from 'vue-responsive-image';
 import BootstrapVue from 'bootstrap-vue';
-import Siema from 'vue2-siema'
+
 
 
 const mediaQueries = new MediaQueries();
@@ -20,7 +20,7 @@ const mediaQueries = new MediaQueries();
 
 
 
-Vue.use(Siema)
+
 Vue.use(mediaQueries);
 Vue.use(BootstrapVue);
 

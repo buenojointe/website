@@ -1,6 +1,6 @@
 <template>
     
-    <b-navbar style="" toggleable type="light" variant='light' sticky="true">
+    <b-navbar toggleable  type="light" variant='light' sticky="false">
         
         <b-navbar-brand>
           <a href="/"><b-img src="static/logo.png" width="120" fluid alt="Responsive image" /></a>
@@ -52,7 +52,8 @@ export default {
             text-align: right;
             margin-left: auto;
             margin-right: auto;
-            white-space: nowrap}
+            white-space: nowrap
+            }
 
 
 

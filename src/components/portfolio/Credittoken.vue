@@ -1,5 +1,5 @@
 <template>
-      <div>
+      <div class="big">
   <b-card class="mb-2">
     <h4>
       BLOCKCHAIN
@@ -84,7 +84,11 @@ export default {
 </script>
 
 <style scoped>
-
+.big{
+  /* transition:0; */
+  /* left: 0; */
+  animation: color-me-in 5s;
+}
 /* table{margin:auto} */
 th{
   /* border:solid 1px; */
