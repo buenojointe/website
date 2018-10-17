@@ -110,12 +110,9 @@ export default {
 
 .bluetext1{
   position: absolute;
-  /* width:100%; */
   top: 25%;
   left: 8%;
   font-size:24px;
-  /* padding-right:3%; */
-  /* transform: translate(-50%, -50%); */
   color:white;
   text-align:left;
 }

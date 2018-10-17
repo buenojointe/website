@@ -3,68 +3,110 @@
 <div class="container">
 <!-- <div class="container" style="margin-left:auto; margin-right:auto"> -->
 
-<div v-if="$resize && $mq.above(768)">
-  <!-- Desktop -->
-  <table style="position:absolute; z-index:1; margin-left:20%; margin-top:7%">
+<table>
+  <tr>
+      <th style="padding-top:17px;vertical-align: top;">
+          <div style="width:0.5rem; height:80px; background-color: black;"></div>
+        </th>
+    <th>
+          <div class="homeText">
+            <h2>Art</h2>
+            <h2>of Software</h2>
+            <h2>Development</h2>
+          </div>
+    </th>
+  </tr>
+</table>
+<b-img style="" src="static/splash.png" fluid alt="Responsive image" />        
+
+
+
+<b-card style="border-radius: 25px; padding: 0;">
+  <table style="">
     <tr>
-      <th style="vertical-align: top">
-        <div style="padding-top: 5px"> 
-        <svg width="10" height="135">
-        <rect width="300" height="135" style="fill:black" />
-        </svg>
-       </div>     
-      </th>
       <th>
-        <div>
-        <div class="desktopHomeText">Art</div>
-        <div class="desktopHomeText">of Software</div>
-        <div class="desktopHomeText">Development</div>
-        </div>
+        <b-img src="static/home/checklist.png" fluid alt="Responsive image" >
+
+        </b-img>
+
+      </th>
+      <th style="text-align:right">
+        <h1 style="font-weight:900; font-size: 400%;">>120</h1>
+        <h4 style="font-weight:300; font-size: 150%">succesfully finished projects</h4>
+
       </th>
     </tr>
   </table>
+</b-card>
 
-  <div style="position:relative; width:450px; margin-left:40%">
-  <b-img src="/static/splash.png" fluid alt="Responsive image" />
-  </div>
 
-  <div class="mainButton">
-    <div style="padding-top: 10px;">
-      Contact Us
-    </div>
-  </div>
-</div>
-<!-- // ELSE  -->
-<div v-else style="margin-top:10px;">
-  <table style="position:absolute; z-index:1;">
+<b-card style="border-radius: 25px; padding: 0;">
+  <table style="">
     <tr>
-      <th style="vertical-align: top">
-        <div style="padding-top:5px"> 
-        <svg width="10" height="77">
-        <rect width="300" height="100" style="fill:black" />
-        </svg>
-       </div>     
-      </th>
       <th>
-        <div style="text-align:left">
-        <div class="mobileHomeText">Art</div>
-        <div class="mobileHomeText">of Software</div>
-        <div class="mobileHomeText">Development</div>
-        </div>
+        <b-img src="static/home/pc.png" fluid alt="Responsive image" >
+
+        </b-img>
+
+      </th>
+      <th style="text-align:right">
+        <h1 style="font-weight:900; font-size: 400%;">15+</h1>
+        <h4 style="font-weight:300; font-size: 150%">years of software development</h4>
+
       </th>
     </tr>
   </table>
+</b-card>
 
-  <div style="position:relative; padding-top: 70px">
-  <b-img src="/static/splash.png" fluid alt="Responsive image" />
-  </div>
+<table style="width: 100%">
+  <tr>
+    <th>
+      <b-card style="border-radius: 25px; padding: 0;height: 150px">
+        <h1 style="font-weight:900; font-size: 400%; padding:0; margin:0; position: relative">10+
+          <h4 style="font-weight:300; padding:0; margin:0; position: absolute; top: 80%">active projects</h4>
+        </h1>
+        
+      </b-card>
+    </th>
+    <th>
+      <b-card style="border-radius: 25px; padding: 0; text-align:center;height: 150px">
+        <h1 style="font-weight:900; padding:0; margin:0; font-size: 400%; position: relative">20+
+          <h4 style="font-weight:300; padding-left:15px; margin:0; position: absolute; top: 90%">partners</h4>
+        </h1>
+        
+      </b-card>
+    </th>
+  </tr>
+</table>
 
-  <div class="mainButton">
-    <div style="padding-top: 10px">
-      Contact Us
-    </div>
-  </div>
-</div>
+<b-card style="border-radius: 25px;">
+
+  <table style="width:100%">
+    <tr>
+      <th style="width:25%;"> 
+        <b-img style="" src="static/home/globe.png" fluid alt="Responsive image" ></b-img>
+
+      </th>
+      <th style="width:75%; text-align:left">
+        <h5 style="margin:0;padding:0;font-weight:700;">Moscow</h5>
+        <h5 style="margin:0 0 0 27%;padding:0;font-weight:700; margin-left:30%">London</h5>
+        <h5 style="margin:0 0 0 55%;padding:0;font-weight:700;">Belgrade</h5>
+      </th>
+    </tr>
+      
+  </table>
+      <h1 style="font-weight:700;">3</h1>
+      
+      <h2 style="font-weight:300;">worldwide offices</h2>
+
+
+
+</b-card>
+
+<div class="mainButton">Contact Us</div>
+
+
+
 </div>
 </template>
 
@@ -82,9 +124,33 @@ export default {
 
 <style scoped>
 
+.card{
+  margin-top:4px;
+  margin-bottom:4px;
+
+}
+th{
+  /* border: solid 1px; */
+}
+
+.homeText{
+  text-align: left;
+  font-size:150%;
+  margin: 5%;
+}
+
+.homeText h2{
+  font-weight: 700;
+}
+
+.container{
+  /* height: 100vh; */
+}
+
 .mainButton{
+  padding: 10px;
   width: 232px;
-  height: 54px;
+  /* height: 54px; */
   left: 71px;
   top: 571px;
   background: #F2C94C;
@@ -99,6 +165,12 @@ export default {
   margin-right:auto;
   margin-top:20px;
   margin-bottom:50px;
+  cursor: pointer;
+}
+
+.mainButton:hover{
+  background: #A2C94C;
+
 }
 
 .mobileHomeText{

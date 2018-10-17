@@ -53,7 +53,7 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       show: false,
-      transitionName: 'fade'
+      transitionName: 'fade',
       
     }
   }

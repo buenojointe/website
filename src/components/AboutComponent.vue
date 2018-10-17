@@ -23,17 +23,17 @@
             <div class="square"></div>
             </th>
             <th>
-             <h1 style="word-wrap: normal">A Quick Brief</h1>
+             <h1 style="word-wrap: normal;font-weight:600">A Quick Brief</h1>
             </th>
           </tr>
           <tr><th>
           </th>
           <th>
             <div style="text-align:left; margin-left:5%; margin-top:5%">
-            <h5 style="font-weight:900;">Foundation year:</h5>
+            <h5 style="font-weight:600;">Foundation year:</h5>
             
             <h5>2018</h5>
-            <h5 style="font-weight:900">Founders:</h5>
+            <h5 style="font-weight:600">Founders:</h5>
             <h5>Sergey Shashev</h5>
             <h5>Oleg Volkosh</h5>
             <h5>Andrey Kokorin</h5>
